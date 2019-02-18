@@ -9,7 +9,6 @@ import styles from './Sidebar.module.scss';
 export const PureSidebar = ({ data, isIndex }) => {
   const {
     author,
-    copyright,
     menu
   } = data.site.siteMetadata;
 
@@ -19,7 +18,6 @@ export const PureSidebar = ({ data, isIndex }) => {
         <Author author={author} isIndex={isIndex} />
         <Menu menu={menu} />
         <Contacts contacts={author.contacts} />
-        <Copyright copyright={copyright} />
       </div>
     </div>
   );
