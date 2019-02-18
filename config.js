@@ -2,8 +2,8 @@
 
 module.exports = {
   url: 'https://lumen.netlify.com',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'Blog by Vladislav Dekhanov',
+  subtitle: 'Web developer at Yandex.Money',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -23,16 +23,16 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'Vladislav Dekhanov',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'Web developer at Yandex.Money',
     contacts: {
-      email: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      email: 'vladdekh@gmail.com',
+      telegram: '@AsC0de',
+      twitter: '@vladdekhanov',
+      github: 'asc0de',
       rss: '#',
-      vkontakte: '#'
+      vkontakte: 'passionlover'
     }
   }
 };
